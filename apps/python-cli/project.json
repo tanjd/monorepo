@@ -1,0 +1,14 @@
+{
+  "root": "apps/python-cli",
+  "sourceRoot": "apps/python-cli/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "poetry run python ./src/main.py",
+        "cwd": "apps/python-cli"
+      }
+    }
+  }
+}
