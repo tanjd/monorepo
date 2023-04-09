@@ -3,5 +3,6 @@
 
 npx nx format:check --verbose
 npx nx format:write --verbose
+poetry run pre-commit run --all-files
 npx nx affected --target=lint --fixed --verbose
 npx nx affected --target=test,e2e --verbose
