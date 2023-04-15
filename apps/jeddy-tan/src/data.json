@@ -1,0 +1,46 @@
+{
+  "experiences": [
+    {
+      "date": "Jul 2022 - present",
+      "type": "work",
+      "title": "Graduate/Junior Software Engineer - ExpressVPN",
+      "subtitle": "Singapore, SG",
+      "descriptions": [
+        "<b>Web Applications Platform (WAP):</b><li>Designed and built the CICD pipeline for a monorepo using github actions and NX tool. The monorepo&apos;s CICD pipeline is able to continuously integrate, deploy and deliver different types of applications (e.g, react and fastapi) that are affected by code change concurrently.</li>",
+        "<b>Internal Apps & Automation (IAA):</b><li>Build tools to automate processes and workflows for various teams.<i> E.g., Automating the employee offloading process that helps remove offloadingemployee&apos;s access to various applications</i></li>"
+      ],
+      "isActive": true,
+      "order": 1
+    },
+    {
+      "date": "May 2021 - Aug 2021",
+      "type": "work",
+      "title": "Summer Intern - Cybersecurity Agency Of Singapore (CSA)",
+      "descriptions": [
+        "<b>Engineering Center:</b><li>Worked on a prototype that performs automated malware analysis & testing on android applications</li>"
+      ],
+      "isActive": false,
+      "order": 2
+    },
+    {
+      "date": "May 2020 - Aug 2020",
+      "type": "work",
+      "title": "Summer Intern - Government Technology Agency (Govtech)",
+      "descriptions": [
+        "<b>Secure Software Development & Audit:</b><li>Performed static code analysis on open-source libraries used in sensitive projects to identify potential vulnerabilities</li>"
+      ],
+      "isActive": false,
+      "order": 3
+    },
+    {
+      "date": "Aug 2018 - May 2022",
+      "type": "education",
+      "title": "Singapore Management University",
+      "descriptions": [
+        "<b>Bachelors of science (Information Systems & Management)</b><li>Double major in Software Development & Cybersecurity</li>"
+      ],
+      "isActive": false,
+      "order": 4
+    }
+  ]
+}

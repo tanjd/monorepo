@@ -1,13 +1,35 @@
-import NxWelcome from './nx-welcome';
 import { Footer } from '@components/Footer';
+import { Timeline } from '@components/Timeline';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
+import '@styles/Home.css';
 
 export function App() {
   return (
-    <>
-      <NxWelcome title="jeddy-tan" />
-      <Footer />
-      <div />
-    </>
+    <div className="App">
+      <div className="wrapper">
+        <div className="container"></div>
+        <div className="home">
+          <div className="about">
+            <h2> Hello! I am Jeddy.</h2>
+            <div className="prompt">
+              <p>I am passionate about creating value added solutions with like-minded people</p>
+              <a href="https://github.com/tanjd">
+                <GitHubIcon />
+              </a>
+              <a href="mailto: example@example.com">
+                <EmailIcon />
+              </a>
+              <a href="https://www.linkedin.com/in/tanjeddy/">
+                <LinkedInIcon />
+              </a>
+            </div>
+          </div>
+          <Timeline />
+        </div>
+      </div>
+    </div>
   );
 }
 
